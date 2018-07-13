@@ -1,0 +1,30 @@
+{
+	"version": "v0.0.1",
+	"tags":[
+        {
+			"name": "Template",
+			"description": " 為這個說明頁面的模版範例展示 ",
+			"body": [
+				{
+					"usage": "[Template] Template of doc page format - GET method.",
+					"method": "GET",
+					"url": "https://kevin.imslab.org/<pathname>?<params ... >",
+					"description": "<說明該 url 使用的目的>",
+					"error": "{\"result\":\" 錯誤訊息 \"}, {\"result\":\" 更多錯誤訊息 \"}",
+					"success": "{\"result\":\" 成功訊息 \"}"
+				},
+				{
+					"usage": "[Template] Template of doc page format - HOST method.",
+					"method": "POST",
+					"url": "http://kevin.imslab.org/<pathname>",
+					"description": "<說明該 url 使用的目的>",
+					"field":[
+						{"name": "<fieldname 1>", "type": "<Data type>"},{"name": "<fieldname 2>", "type": "<Data type>"}
+					],
+					"error": "{\"result\":\" 錯誤訊息 \"}, {\"result\":\" 更多錯誤訊息 \"}",
+					"success": "{\"result\":\" 成功訊息 \"}"
+				}
+			]
+		}
+    ]
+}
