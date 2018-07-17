@@ -3,7 +3,7 @@
 Simplest Restful API document generator
 
 ---
-# Install & Run
+## Install & Run
 
 * Clone this repository on GitHub
     ```bash
